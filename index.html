@@ -2,41 +2,77 @@
 <html>
   <head>
     <title>Joseph Bourne</title>
+
+    <!-- Font Awesome CDN -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
     />
+
+    <!-- my custom css files-->
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/footer.css" />
   </head>
 
   <body>
-    <div class="nav">
-      <div class="nav-mob">
-        <label for="navToggle">&#8801;</label>
-        <button id="navToggle" class="navToggle"></button>
-      </div>
-      <div class="brand-wrap">
-        <img src="#" class="brand-img" />
-      </div>
-      <ul>
-        <li><a href="#" class="nav-links">About</a></li>
-        <li><a href="#" class="nav-links">Portfolio</a></li>
-        <li>
-          <a href="#" class="nav-links">Hire</a>
-          <ul>
-            <li>
-              <a href="#">
-                <img src="#" class="hire-sublinks-img" />
-                <img src="#" class="hire-sublinks-img" />
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#" class="nav-links">Contact</a></li>
-      </ul>
-    </div>
+    <header>
+      <nav class="nav">
+        <div class="brand-wrap">
+          <img src="icons/brand-icon.png" class="brand-img" />
+        </div>
+        <ul>
+          <li class="nav-linker">
+            <a href="#">
+              <span>
+                <i class="fas fa-home"></i>
+                Home
+              </span>
+            </a>
+          </li>
+          <li class="nav-linker">
+            <a href="#">
+              <span>
+                <i class="fas fa-info"></i>
+                About
+              </span></a
+            >
+          </li>
+          <li class="nav-linker">
+            <a href="#">
+              <span>
+                <i class="fas fa-briefcase"></i>
+                Portfolio
+              </span>
+            </a>
+          </li>
+          <li class="nav-linker">
+            <a href="#">
+              <span>
+                <i class="fas fa-dollar-sign"></i>
+                Hire
+              </span>
+            </a>
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="#" class="hire-sublinks-img" />
+                  <img src="#" class="hire-sublinks-img" />
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-linker">
+            <a href="#">
+              <span>
+                <i class="fas fa-envelope"></i>
+                Contact
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <!-- container for the page -->
     <div class="container">
       <!-- 1st/bio section of the container-->
