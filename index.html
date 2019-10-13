@@ -6,11 +6,89 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
 
   <body>
+    <div class="nav">
+      <div class="nav-mob">
+        <label for="navToggle">&#8801;</label>
+        <button id="navToggle" class="navToggle"></button>
+      </div>
+      <div class="brand-wrap">
+        <img src="#" class="brand-img" />
+      </div>
+      <ul>
+        <li><a href="#" class="nav-links">About</a></li>
+        <li><a href="#" class="nav-links">Portfolio</a></li>
+        <li>
+          <a href="#" class="nav-links">Hire</a>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="#" class="hire-sublinks-img" />
+                <img src="#" class="hire-sublinks-img" />
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#" class="nav-links">Contact</a></li>
+      </ul>
+    </div>
+    <!-- container for the page -->
+    <div class="container">
+      <!-- 1st/bio section of the container-->
+      <div class="abt-me">
+        <section class="abt-img">
+          <img src="#" class="myImg" />
+        </section>
+
+        <section class="abt-summary">
+          <p class="bioSummary"></p>
+        </section>
+      </div>
+      <!-- bio section ends -->
+      <!-- my work section begins -->
+      <div class="myWork">
+        <div class="sect-h">
+          <h1>My Work</h1>
+        </div>
+        <section class="uidw">
+          <h3>UI Design</h3>
+          <div class="box box1"></div>
+          <div class="box box2"></div>
+          <div class="box box3"></div>
+          <div class="box box4"></div>
+        </section>
+        <section class="webw">
+          <h3>Web Design</h3>
+          <div class="box box1"></div>
+          <div class="box box2"></div>
+          <div class="box box3"></div>
+          <div class="box box4"></div>
+        </section>
+      </div>
+      <!-- my work section ends -->
+      <!-- contact section begins -->
+      <div class="form">
+        <div class="sect-h">
+          <h1 class="cm-title">
+            Contact Me
+          </h1>
+        </div>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="email" />
+        <input type="text" placeholder="Message" />
+      </div>
+    </div>
+    <!-- container section ends -->
     <div class="ft-wrapper">
       <div class="ft-top">
+        <p>@ 2019 curated with {heart} by Joseph Bourne</p>
+      </div>
+      <div class="ft-btm">
         <ul>
           <li>
             <a href="#">
