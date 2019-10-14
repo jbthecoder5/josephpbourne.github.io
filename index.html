@@ -16,63 +16,63 @@
   </head>
 
   <body>
-    <header>
-      <nav class="nav">
-        <div class="brand-wrap">
-          <img src="icons/brand-icon.png" class="brand-img" />
-        </div>
-        <ul>
-          <li class="nav-linker">
-            <a href="#">
-              <span>
-                <i class="fas fa-home"></i>
-                Home
-              </span>
-            </a>
-          </li>
-          <li class="nav-linker">
-            <a href="#">
-              <span>
-                <i class="fas fa-info"></i>
-                About
-              </span></a
-            >
-          </li>
-          <li class="nav-linker">
-            <a href="#">
-              <span>
-                <i class="fas fa-briefcase"></i>
-                Portfolio
-              </span>
-            </a>
-          </li>
-          <li class="nav-linker">
-            <a href="#">
-              <span>
-                <i class="fas fa-dollar-sign"></i>
-                Hire
-              </span>
-            </a>
-            <ul>
-              <li>
-                <a href="#">
-                  <img src="#" class="hire-sublinks-img" />
-                  <img src="#" class="hire-sublinks-img" />
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-linker">
-            <a href="#">
-              <span>
-                <i class="fas fa-envelope"></i>
-                Contact
-              </span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <button class="m-toggler" id="nav-trigger">&#8801;</button>
+    <nav class="nav" id="navvy">
+      <div class="brand-wrap">
+        <img src="icons/brand-icon.png" class="brand-img" />
+      </div>
+      <ul>
+        <li class="nav-linker">
+          <a href="#">
+            <span>
+              <i class="fas fa-home"></i>
+              Home
+            </span>
+          </a>
+        </li>
+        <li class="nav-linker">
+          <a href="#">
+            <span>
+              <i class="fas fa-info"></i>
+              About
+            </span></a
+          >
+        </li>
+        <li class="nav-linker">
+          <a href="#">
+            <span>
+              <i class="fas fa-briefcase"></i>
+              Portfolio
+            </span>
+          </a>
+        </li>
+        <li class="nav-linker">
+          <a href="#">
+            <span>
+              <i class="fas fa-dollar-sign"></i>
+              Hire
+            </span>
+          </a>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="#" class="hire-sublinks-img" />
+                <img src="#" class="hire-sublinks-img" />
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-linker">
+          <a href="#">
+            <span>
+              <i class="fas fa-envelope"></i>
+              Contact
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- ending the nav section of the page -->
     <!-- container for the page -->
     <div class="container">
       <!-- 1st/bio section of the container-->
@@ -169,5 +169,13 @@
         </ul>
       </div>
     </div>
+
+    <!-- js and jquery code -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/nav.js"></script>
   </body>
 </html>
