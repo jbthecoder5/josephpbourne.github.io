@@ -1,7 +1,3 @@
-document.getElementById("nav-trigger").onclick = function changeDisplay() {
-  document.getElementById("navvy").style = "display: block";
-};
-
-function openNav() {}
-
-function closeNav() {}
+$("#nav-trigger").click(function() {
+  $(".navvy").toggleClass("showNav");
+});
