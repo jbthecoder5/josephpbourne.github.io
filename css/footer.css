@@ -1,0 +1,37 @@
+@media only screen and (max-width: 500px) {
+  /* footer css mobile code */
+  /*
+  .ft-wrapper {
+    display: none;
+  }
+    
+  .ft-wrapper {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .ft-top,
+  .ft-btm {
+    height: 25px;
+  }
+
+  .ft-top {
+    background: #bab3b3;
+  }
+
+  .ft-top p {
+    text-align: center;
+  }
+
+  .ft-top p > span {
+    color: red;
+  }
+
+  .ft-btm {
+    background: #c6c2c2;
+  }
+
+  */
+}
