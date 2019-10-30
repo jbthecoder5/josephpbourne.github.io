@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 501px) {
   /* ending general styling */
 
   nav,
@@ -10,6 +10,7 @@
   }
 
   .m-toggler {
+    display: block;
     border: 0;
     outline: 0;
     font-size: 2rem;
@@ -106,9 +107,67 @@
 
   ul li ul li a {
   }
+
   ul li ul li a img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
   }
+}
+
+/* Larger screen CSS code */
+
+nav,
+nav ul,
+nav ul li,
+nav ul li a {
+  padding: 0;
+  margin: 0;
+}
+
+.navvy {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  background: #ce80ce;
+}
+
+.navvy .brand-wrap {
+  width: 40%;
+  height: 90px;
+}
+
+.brand-wrap .brand-img {
+  height: 50px;
+  width: 50px;
+  line-height: 90px;
+}
+
+.navvy ul {
+  width: 60%;
+  line-height: 90px;
+  list-style: none;
+  display: flex;
+}
+
+.navvy ul li {
+}
+
+.navvy ul ul {
+  display: none;
+}
+
+.navvy ul .nav-linker:nth-child(1) {
+  display: none;
+}
+
+.navvy ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navvy ul li a i {
+  display: none;
 }

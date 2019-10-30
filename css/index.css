@@ -86,3 +86,28 @@
     text-align: center;
   }
 }
+
+/* Larger screen CSS code */
+
+.abt-me {
+  width: 100%;
+}
+
+.abt-img {
+  width: 50%;
+}
+
+.abt-img .myImg {
+  height: 100px;
+  width: 100px;
+}
+
+.pfbox {
+  height: 150px;
+  width: 150px;
+}
+
+.pfbox img {
+  height: 150px;
+  width: 150px;
+}
