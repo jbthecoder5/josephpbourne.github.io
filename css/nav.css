@@ -24,10 +24,10 @@
 
   .showNav {
     display: block;
-    height: 140px; /* changed from 85px to 230px */
+    height: 85px; /* changed from 85px to 230px */
     width: 100%;
-    position: absolute;
-    bottom: -10px;
+    position: relative;
+    top: 0;
     right: 0;
     left: 0;
     z-index: 1;
@@ -49,6 +49,7 @@
   }
 
   ul .nav-linker {
+    width: 100%;
     flex: 0 0 100px;
     text-align: center;
   }
