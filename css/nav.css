@@ -115,3 +115,81 @@
     border-radius: 50%;
   }
 }
+
+/*###### */
+/* ##############  * Larger screen CSS code */
+/*###### */
+
+@media only screen and (min-width: 501px) {
+  nav,
+  nav ul,
+  nav ul li,
+  nav ul li a {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+  }
+
+  .m-toggler {
+    display: none;
+  }
+
+  .navvy {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(#ce80ce 20%, #ccc 95%);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .brand-wrap {
+    height: 100px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand-wrap .brand-img {
+    display: block;
+    height: 70px;
+    width: 70px;
+  }
+
+  .navvy ul {
+    height: 100px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navvy ul .nav-linker {
+  }
+
+  .navvy ul li a span {
+    font: 1rem verdana, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.125rem;
+  }
+
+  .navvy ul li a span:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+
+  /* ############ inner nav */
+
+  .navvy ul ul {
+    display: none;
+  }
+}
