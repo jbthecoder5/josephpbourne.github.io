@@ -21,6 +21,10 @@
     border-bottom: 1px solid black;
   }
 
+  .abt-me h3 {
+    margin: 1rem 0;
+  }
+
   .abt-img {
     display: flex;
     flex-direction: column;
@@ -65,19 +69,27 @@
     width: 100%;
   }
 
+  .uidw .sect-h {
+    margin: 2.5rem 0 1.7rem;
+  }
+
+  .webw .sect-h {
+    margin: 2.5rem 0 1.7rem;
+  }
+
   .pwrapper {
     display: flex;
     justify-content: space-evenly;
   }
 
-  .pfbox {
-    height: 75px;
-    width: 75px;
+  .pwrapper .pfbox {
+    height: 4rem;
+    width: 5rem;
   }
 
-  .pfbox img {
-    height: 75px;
-    width: 75px;
+  .pwrapper .pfbox img {
+    height: 4rem;
+    width: 5rem;
   }
 
   /* contact form css mobile code */
