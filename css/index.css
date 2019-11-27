@@ -99,21 +99,61 @@
   }
 }
 
-/* Larger screen CSS code */
+/*###### */
+/* ##############  * Larger screen CSS code */
+/*###### */
 
-.abt-me {
+.container {
   width: 100%;
 }
 
+/* about section DESKTOP css code */
+
+.abt-me {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .abt-img {
-  width: 50%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.abt-img h2 {
+  margin-top: 1rem;
+  font: 1.5rem Verdana, geneva, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
 }
 
 .abt-img .myImg {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 0;
 }
 
+.abt-summary {
+  width: 55%;
+}
+
+.abt-summary .bioSummary {
+  width: 65%;
+  text-align: center;
+  font: 1.2rem Verdana, Geneva, sans-serif;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  line-height: 2rem;
+  word-wrap: none;
+}
+
+/* my work section css DESKTOP code */
 .pfbox {
   height: 150px;
   width: 150px;
