@@ -1,4 +1,44 @@
 @media only screen and (max-width: 500px) {
+  .ft-wrapper {
+    height: 90px;
+    width: 100%;
+    background: #000;
+  }
+
+  /* top footer */
+  .ft-top {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ft-top p {
+    font: 1rem Verdana, sans-serif;
+    color: #fff;
+    font-weight: bold;
+  }
+  /* bottom footer */
+  .ft-btm {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ft-btm ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .ft-ul li a i {
+    color: white;
+    font-size: 1.4rem;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -38,7 +78,8 @@
     list-style: none;
   }
 
-  .ftm-btm ul li a i {
-    color: #fff;
+  .ft-ul li a i {
+    color: white;
+    font-size: 1.4rem;
   }
 }
