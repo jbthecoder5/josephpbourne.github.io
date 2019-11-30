@@ -144,7 +144,7 @@
   .navvy {
     height: 100px;
     width: 100%;
-    background: linear-gradient(#ce80ce 20%, #ccc 95%);
+    background: linear-gradient(#ce80ce 20%, #9a9999 95%);
     display: flex;
     flex-direction: row;
   }
