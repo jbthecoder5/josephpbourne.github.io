@@ -36,3 +36,57 @@
     padding-left: 30px;
   }
 }
+
+@media only screen and (min-width: 700px) {
+  .form-container {
+    height: 100vh;
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .ipt-group {
+    height: calc(100vh - 150px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .ipt-field {
+    height: auto;
+  }
+
+  .ci {
+    width: 600px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .mssg {
+    height: 142px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .mssg::placeholder {
+    color: #c6c2c2;
+    padding-top: 1rem;
+  }
+
+  .ci::placeholder {
+    color: #c6c2c2;
+  }
+
+  .ci[type="text"] {
+    padding-left: 30px;
+    font-size: 1.3rem;
+  }
+
+  textarea {
+    padding-left: 30px;
+    font-size: 1.3rem;
+  }
+}
