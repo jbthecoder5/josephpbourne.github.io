@@ -26,6 +26,15 @@
 
   .mssg {
     height: 142px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .mssg::placeholder {
+    color: #c6c2c2;
+    padding-top: 1rem;
+    padding-left: 1rem;
   }
 
   .ci::placeholder {
