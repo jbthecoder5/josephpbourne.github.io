@@ -2,6 +2,7 @@
 @media only screen and (max-width: 500px) {
   .form-container {
     width: 100%;
+    margin: 0 0 3rem;
   }
 
   .ipt-group {
@@ -44,13 +45,33 @@
   .ci[type="text"] {
     padding-left: 30px;
   }
+
+  .btn-wrap {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-wrap .btn-suc {
+    height: 45px;
+    width: 100px;
+    border: 1px;
+    border-radius: 10% 10% 10% 10%;
+    background: #519b6f;
+    font: 1rem Verdana, geneva, sans-serif;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    padding: 0.5rem;
+  }
 }
 
 @media only screen and (min-width: 700px) {
   .form-container {
     height: 100vh;
     width: 100%;
-    margin-top: 5rem;
+    margin: 5rem 0 3rem;
   }
 
   .ipt-group {
@@ -97,5 +118,25 @@
   textarea {
     padding-left: 30px;
     font-size: 1.3rem;
+  }
+
+  .btn-wrap {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-wrap .btn-suc {
+    height: 90px;
+    width: 200px;
+    border: 1px;
+    border-radius: 10% 10% 10% 10%;
+    background: #519b6f;
+    font: 1rem Verdana, geneva, sans-serif;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    padding: 0.5rem;
   }
 }
