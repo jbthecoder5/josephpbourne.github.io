@@ -39,6 +39,10 @@
     display: none;
   }
 
+  /* 
+
+  fix the nav list item width for mobile screen
+  */
   ul {
     height: 85px;
     list-style: none;
