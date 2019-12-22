@@ -41,3 +41,8 @@ h6 {
     display: block;
   }
 }
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
