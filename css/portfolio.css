@@ -1,0 +1,16 @@
+@media only screen and (min-width: 900px) {
+  .port-container {
+    width: 100%;
+    height: calc(100vh - 100px);
+  }
+
+  .port-box {
+    height: 175px;
+    width: 175px;
+  }
+
+  .port-imgs {
+    height: 175px;
+    width: 175px;
+  }
+}
