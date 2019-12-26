@@ -1,7 +1,31 @@
 @media only screen and (min-width: 900px) {
   .port-container {
     width: 100%;
-    height: calc(100vh - 100px);
+  }
+
+  .port-head {
+    width: 100%;
+    margin: 0 0 5rem;
+    padding: 5.5rem 0;
+  }
+
+  .port-head h1 {
+    font: 1.5rem Verdana, sans-serif;
+    text-align: center;
+  }
+
+  .port-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .port-card {
+  }
+
+  .port-card .portSH {
+    text-align: center;
+    margin-bottom: 2.3rem;
   }
 
   .port-box {
@@ -12,5 +36,11 @@
   .port-imgs {
     height: 175px;
     width: 175px;
+    border: 0;
+    border-radius: 50%;
+  }
+
+  .port-box .port-imgs {
+    margin-bottom: 3.5rem;
   }
 }
