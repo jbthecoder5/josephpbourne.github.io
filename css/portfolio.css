@@ -1,3 +1,59 @@
+@media only screen and (max-width: 500px) {
+  .port-container {
+    width: 100%;
+  }
+
+  .port-head {
+    width: 100%;
+    margin: 0 0 3rem;
+    padding: 1rem 0;
+  }
+
+  .port-head h1 {
+    font: 1.1rem Verdana, sans-serif;
+    text-align: center;
+  }
+
+  .port-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .port-card {
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .port-card .portSH {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2.3rem;
+  }
+
+  .port-box {
+    height: auto;
+    width: 75px;
+  }
+
+  .port-imgs {
+    height: 75px;
+    width: 75px;
+    border: 0;
+    border-radius: 50%;
+  }
+
+  .port-box .port-imgs {
+    margin-bottom: 1.5rem;
+  }
+}
+
 @media only screen and (min-width: 900px) {
   .port-container {
     width: 100%;
@@ -21,6 +77,8 @@
   }
 
   .port-card {
+    height: auto;
+    width: 175px;
   }
 
   .port-card .portSH {
