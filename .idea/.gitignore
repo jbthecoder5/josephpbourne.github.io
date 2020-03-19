@@ -1,0 +1,10 @@
+# Default ignored files
+/workspace.xml
+
+
+# ignoring the following generated files in webstorm IDE
+
+.idea/josephpbourne.github.io.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
